@@ -1,0 +1,49 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.widget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 32px;
+  width: 345px;
+  height: 280px;
+  background: #fff;
+}
+
+button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  cursor: pointer;
+
+  background: #4e75ff;
+  transition: background 250ms linear;
+}
+
+button:hover {
+  background: #6c8cff;
+}
+
+a {
+  position: absolute;
+  top: 3%;
+  left: 2%;
+}
